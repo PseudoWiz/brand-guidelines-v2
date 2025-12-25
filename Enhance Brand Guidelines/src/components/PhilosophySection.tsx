@@ -46,12 +46,13 @@ export function PhilosophySection() {
         <h1 className="text-5xl font-serif tracking-tight text-[#09090B] mb-8">Editorial Mission</h1>
         <div className="max-w-3xl space-y-8">
           <p className="text-2xl font-serif leading-tight text-[#09090B]">
-            We explain how computing changes the world, and what it changes in us.
+            Code concentrates power. Markets price that concentration. History shows the pattern.
           </p>
           <p className="text-lg font-serif text-[#27272A] leading-relaxed">
-            Code & Capital is a publication dedicated to the history and future of technology. 
-            We treat AI as a civilisational shift, not a product cycle. We use history to make 
-            sense of what is arriving next.
+            When railroads networked America in the 1860s, Carnegie built steel empires. When electricity
+            reached factories in the 1890s, Ford mechanized production. When transistors shrunk computers
+            in the 1970s, Microsoft captured the desktop. Now transformers scale intelligence. We analyze
+            what happens when code becomes the means of production.
           </p>
         </div>
       </motion.div>
@@ -67,15 +68,19 @@ export function PhilosophySection() {
           <div>
             <h2 className="text-2xl font-serif text-[#09090B] mb-6">On "Code"</h2>
             <p className="text-lg font-serif text-[#27272A] leading-relaxed">
-              The language of modern power. It is the lever by which small teams move 
-              entire industries. It requires precision, logic, and structure.
+              In 1842, Ada Lovelace wrote the first algorithm for Babbage's Analytical Engine.
+              In 2024, developers write prompts for language models that write the code.
+              We study the transformation from handcraft to abstraction—and who controls
+              the abstraction layer.
             </p>
           </div>
           <div>
             <h2 className="text-2xl font-serif text-[#09090B] mb-6">On "Capital"</h2>
             <p className="text-lg font-serif text-[#27272A] leading-relaxed">
-              Not just money, but leverage. The accumulation of value, influence, and 
-              capability. When code scales, it becomes capital.
+              Marc Andreessen wrote "Software is eating the world" in 2011. By 2024, the top five
+              companies by market cap are software companies worth $12 trillion combined. We analyze
+              how technical moats become market dominance, and why network effects create
+              winner-take-all outcomes.
             </p>
           </div>
         </div>
@@ -139,44 +144,44 @@ export function PhilosophySection() {
         <div className="border border-[#E4E4E7] p-16 bg-white">
           <div className="max-w-3xl space-y-12">
             <p className="text-xl font-serif text-[#27272A] leading-relaxed">
-              Our voice is that of an editor-in-chief: knowledgeable but not arrogant, 
-              clear but not simplistic. We avoid tech jargon unless necessary, and we 
-              never use "marketing speak".
+              We write like senior correspondents, not founder-CEOs. Every claim requires evidence.
+              Every trend gets historical context. We explain complex systems without dumbing them down,
+              and we never confuse breathlessness with analysis.
             </p>
-            
+
             <div className="grid md:grid-cols-2 gap-16 pt-12 border-t border-[#E4E4E7]">
               <div>
                 <p className="text-xs font-mono text-[#71717A] mb-6 uppercase tracking-widest">Sound Like This</p>
                 <ul className="space-y-6">
                   <li className="flex gap-4 text-base font-serif text-[#27272A]">
                     <span className="text-[#4338CA] mt-1">✓</span>
-                    <span>"AI is a civilisational shift."</span>
+                    <span>"GPT-4 has 1.7 trillion parameters. GPT-3 had 175 billion. That's a 10x jump in 18 months."</span>
                   </li>
                   <li className="flex gap-4 text-base font-serif text-[#27272A]">
                     <span className="text-[#4338CA] mt-1">✓</span>
-                    <span>"Code creates leverage."</span>
+                    <span>"In 1987, Excel automated spreadsheets. Lotus 1-2-3 controlled 60% of the market. By 1995, it was dead."</span>
                   </li>
                   <li className="flex gap-4 text-base font-serif text-[#27272A]">
                     <span className="text-[#4338CA] mt-1">✓</span>
-                    <span>"History suggests a different outcome."</span>
+                    <span>"NVIDIA's market cap exceeded Intel's in 2020. Five years of AI training demand rewrote semiconductor economics."</span>
                   </li>
                 </ul>
               </div>
-              
+
               <div>
                 <p className="text-xs font-mono text-[#71717A] mb-6 uppercase tracking-widest">Not Like This</p>
                 <ul className="space-y-6">
                   <li className="flex gap-4 text-base font-serif text-[#71717A]">
                     <span className="text-[#DC2626] mt-1">✗</span>
-                    <span>"Unlock infinite possibilities with AI."</span>
+                    <span>"AI is transforming everything we know about work and creativity."</span>
                   </li>
                   <li className="flex gap-4 text-base font-serif text-[#71717A]">
                     <span className="text-[#DC2626] mt-1">✗</span>
-                    <span>"Supercharge your workflow."</span>
+                    <span>"This breakthrough technology will revolutionize the industry."</span>
                   </li>
                   <li className="flex gap-4 text-base font-serif text-[#71717A]">
                     <span className="text-[#DC2626] mt-1">✗</span>
-                    <span>"Join the revolution today."</span>
+                    <span>"We're living in unprecedented times of exponential change."</span>
                   </li>
                 </ul>
               </div>

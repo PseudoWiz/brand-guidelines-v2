@@ -193,12 +193,13 @@ export function TypographySection() {
           {/* Example 1 */}
           <div className="bg-white p-8 md:p-12 border border-[#E4E4E7]">
             <p className="text-xs font-mono text-[#71717A] mb-6">ARTICLE LAYOUT</p>
-            <h2 className="mb-4">The Art of Systematic Thinking</h2>
-            <p className="text-xs font-mono text-[#71717A] mb-6">PUBLISHED DEC 24, 2024 • 8 MIN READ</p>
+            <h2 className="mb-4">How Software Ate Semiconductors</h2>
+            <p className="text-xs font-mono text-[#71717A] mb-6">PUBLISHED DEC 24, 2024 • 12 MIN READ</p>
             <p className="text-lg leading-relaxed text-[#27272A]">
-              Great design systems aren't built overnight. They're the result of disciplined thinking, 
-              pattern recognition, and ruthless prioritization. This is how we approach building products 
-              that scale.
+              In 1968, Robert Noyce and Gordon Moore founded Intel to build memory chips. By 1971, they'd
+              invented the microprocessor by accident. Fifty years later, Jensen Huang's NVIDIA controls
+              AI compute because they bet on parallel processing when Intel bet on clock speed. Markets
+              punish yesterday's architecture.
             </p>
           </div>
 
@@ -217,12 +218,13 @@ export function TypographySection() {
 
           {/* Example 3 */}
           <div className="bg-white p-8 md:p-12 border-l-4 border-[#4338CA]">
-            <p className="text-xs font-mono text-[#71717A] mb-2">KEY INSIGHT</p>
+            <p className="text-xs font-mono text-[#71717A] mb-2">HISTORICAL PARALLEL</p>
             <p className="text-2xl italic mb-4 leading-tight">
-              "Typography is the voice of your brand. Choose it as carefully as you'd choose a 
-              spokesperson."
+              "IBM spent the 1960s building mainframes for institutions. Apple spent the 1970s building
+              microcomputers for individuals. By 1981, IBM had to copy Apple's architecture just to compete.
+              Platforms eat product lines."
             </p>
-            <p className="text-sm text-[#71717A]">— Design Philosophy, 2024</p>
+            <p className="text-sm text-[#71717A]">— From "How Markets Price Technical Debt," Issue 7</p>
           </div>
         </div>
       </motion.div>
