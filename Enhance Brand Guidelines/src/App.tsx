@@ -78,7 +78,7 @@ function App() {
             </svg>
             <div className="flex flex-col">
               <span className="text-sm font-semibold text-[#09090B]">Code & Capital</span>
-              <span className="text-xs text-[#71717A]">Brand Guidelines v2.1</span>
+              <span className="text-xs text-[#71717A]">On Computing & Capital</span>
             </div>
           </div>
 
